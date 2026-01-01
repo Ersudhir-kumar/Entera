@@ -26,6 +26,15 @@ namespace Entera.Controllers
             return View();
         }
 
+        public IActionResult ra()
+        {
+            return View();
+        }
+
+        public IActionResult rajjjjjjaaa()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
@@ -51,7 +60,15 @@ namespace Entera.Controllers
             return View();
         }
 
+ ROHIT
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+
+		public IActionResult Gora()
+		{
+			return View();
+		}
+
+		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)] master
 
         public IActionResult Error()
         {
