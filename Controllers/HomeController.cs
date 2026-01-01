@@ -54,7 +54,10 @@ namespace Entera.Controllers
 
 
 
-
+		public IActionResult chandu()
+		{
+			return View();
+		}
 
 
 
