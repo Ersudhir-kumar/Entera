@@ -73,10 +73,6 @@ namespace Entera.Controllers
 
 		
 
-		public IActionResult Gora()
-		{
-			return View();
-		}
 
 		public IActionResult newrecords()
 		{
