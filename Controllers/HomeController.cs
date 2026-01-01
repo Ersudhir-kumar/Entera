@@ -60,7 +60,7 @@ namespace Entera.Controllers
             return View();
         }
 
- ROHIT
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 
 		public IActionResult Gora()
@@ -68,7 +68,7 @@ namespace Entera.Controllers
 			return View();
 		}
 
-		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)] master
+		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)] 
 
         public IActionResult Error()
         {
@@ -79,6 +79,14 @@ namespace Entera.Controllers
             return View();
         }
         public IActionResult KALALAND()
+        {
+            return View();
+        }
+        public IActionResult KAND()
+        {
+            return View();
+        }
+        public IActionResult HHH()
         {
             return View();
         }
