@@ -55,20 +55,35 @@ namespace Entera.Controllers
 			return View();
 		}
 
+
+
         public IActionResult LLS()
         {
             return View();
         }
 
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+      
 
 		public IActionResult Gora()
 		{
 			return View();
 		}
 
-		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)] 
+
+		
+
+		public IActionResult Gora()
+		{
+			return View();
+		}
+
+		public IActionResult newrecords()
+		{
+			return View();
+		}
+
+	
 
         public IActionResult Error()
         {
