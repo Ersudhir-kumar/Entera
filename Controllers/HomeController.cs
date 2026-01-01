@@ -10,11 +10,8 @@ namespace Entera.Controllers
         {
             return View();
         }
-        public IActionResult hh()
-        {
-            return View();
-        }
+      
 
-
+       
     }
 }
