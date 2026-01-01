@@ -21,6 +21,11 @@ namespace Entera.Controllers
             return View();
         }
 
+        public IActionResult raju()
+        {
+            return View();
+        }
+
 
         public IActionResult Privacy()
         {
