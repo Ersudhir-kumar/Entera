@@ -41,37 +41,14 @@ namespace Entera.Controllers
             return View();
         }
 
-
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-
-		public IActionResult Dashboard()
+		public IActionResult RohitChaudhari()
 		{
 			return View();
 		}
 
-		public IActionResult Sudhir()
-		{
-			return View();
-		}
+	
 
 
-
-        public IActionResult LLS()
-        {
-            return View();
-        }
-
-
-      
-
-		public IActionResult Gora()
-		{
-			return View();
-		}
-
-
-		
 
 
 		public IActionResult newrecords()
@@ -79,27 +56,13 @@ namespace Entera.Controllers
 			return View();
 		}
 
+
 	
 
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-        public IActionResult Book()
-        {
-            return View();
-        }
-        public IActionResult KALALAND()
-        {
-            return View();
-        }
-        public IActionResult KAND()
-        {
-            return View();
-        }
-        public IActionResult HHH()
-        {
-            return View();
-        }
+    
     }
 }
