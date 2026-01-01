@@ -16,35 +16,22 @@ namespace Entera.Controllers
             return View();
         }
 
-		public IActionResult Dashboard()
+		public IActionResult RohitChaudhari()
 		{
 			return View();
 		}
 
-		public IActionResult Sudhir()
-		{
-			return View();
-		}
+	
 
 
-		public IActionResult Gora()
-		{
-			return View();
-		}
-
-		public IActionResult newrecords()
-		{
-			return View();
-		}
+	
+	
 
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-        public IActionResult Book()
-        {
-            return View();
-        }
+    
     }
 }
