@@ -10,8 +10,16 @@ namespace Entera.Controllers
         {
             return View();
         }
-      
 
-       
-    }
+		public IActionResult chanda()
+		{
+			return View();
+		}
+
+
+		public IActionResult raj()
+		{
+			return View();
+		}
+	}
 }
