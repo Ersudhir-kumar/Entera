@@ -11,6 +11,31 @@ namespace Entera.Controllers
             return View();
         }
 
+        public IActionResult admin()
+        {
+            return View();
+        }
+
+        public IActionResult chandrabhan()
+        {
+            return View();
+        }
+
+        public IActionResult raju()
+        {
+            return View();
+        }
+
+        public IActionResult ra()
+        {
+            return View();
+        }
+
+        public IActionResult rajjjjjjaaa()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
@@ -27,7 +52,8 @@ namespace Entera.Controllers
 	
 	
 
-		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+	
+
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
