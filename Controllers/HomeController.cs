@@ -49,8 +49,13 @@ namespace Entera.Controllers
 	
 
 
-	
-	
+
+
+		public IActionResult newrecords()
+		{
+			return View();
+		}
+
 
 	
 
