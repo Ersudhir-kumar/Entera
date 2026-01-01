@@ -31,6 +31,11 @@ namespace Entera.Controllers
             return View();
         }
 
+        public IActionResult rajjjjjjaaa()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
