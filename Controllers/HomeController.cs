@@ -55,13 +55,20 @@ namespace Entera.Controllers
 			return View();
 		}
 
+        public IActionResult LLS()
+        {
+            return View();
+        }
+
+ ROHIT
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 
 		public IActionResult Gora()
 		{
 			return View();
 		}
 
-		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)] master
 
         public IActionResult Error()
         {
