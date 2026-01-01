@@ -57,5 +57,9 @@ namespace Entera.Controllers
         {
             return View();
         }
+        public IActionResult KALALAND()
+        {
+            return View();
+        }
     }
 }
