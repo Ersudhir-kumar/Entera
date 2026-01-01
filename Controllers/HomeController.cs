@@ -16,6 +16,12 @@ namespace Entera.Controllers
             return View();
         }
 
+        public IActionResult chandrabhan()
+        {
+            return View();
+        }
+
+
         public IActionResult Privacy()
         {
             return View();
