@@ -21,5 +21,10 @@ namespace Entera.Controllers
 		{
 			return View();
 		}
-	}
+
+        public IActionResult rajbhar()
+        {
+            return View();
+        }
+    }
 }
