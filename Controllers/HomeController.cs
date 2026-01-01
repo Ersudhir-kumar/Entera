@@ -11,10 +11,39 @@ namespace Entera.Controllers
             return View();
         }
 
+        public IActionResult admin()
+        {
+            return View();
+        }
+
+        public IActionResult chandrabhan()
+        {
+            return View();
+        }
+
+        public IActionResult raju()
+        {
+            return View();
+        }
+
+        public IActionResult ra()
+        {
+            return View();
+        }
+
+        public IActionResult rajjjjjjaaa()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
         }
+
+
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 
 		public IActionResult Dashboard()
 		{
@@ -27,6 +56,23 @@ namespace Entera.Controllers
 		}
 
 
+
+        public IActionResult LLS()
+        {
+            return View();
+        }
+
+
+      
+
+		public IActionResult Gora()
+		{
+			return View();
+		}
+
+
+		
+
 		public IActionResult Gora()
 		{
 			return View();
@@ -37,12 +83,25 @@ namespace Entera.Controllers
 			return View();
 		}
 
-		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+	
+
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
         public IActionResult Book()
+        {
+            return View();
+        }
+        public IActionResult KALALAND()
+        {
+            return View();
+        }
+        public IActionResult KAND()
+        {
+            return View();
+        }
+        public IActionResult HHH()
         {
             return View();
         }
