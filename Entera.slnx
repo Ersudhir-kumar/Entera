@@ -4,4 +4,5 @@
   <Project Path="../ENTERA.DAL/ENTERA.DAL.csproj" Id="de6daead-e9dd-4756-b04e-33f5ee4fdcf8" />
   <Project Path="../ENTERA.MODEL/ENTERA.MODEL.csproj" Id="5534f1aa-1a6c-4ee4-bedb-a9e3cdfb3831" />
   <Project Path="Entera.csproj" />
+  <Project Path="ENTERADTO/ENTERADTO.csproj" Id="01ed1e55-1d50-4a1d-be13-03451b631d51" />
 </Solution>
