@@ -10,7 +10,15 @@ namespace Entera.Controllers
         {
             return View();
         }
+        public ActionResult Admin()
+        {
+            return View();
+        }
 
-        
-    }
+		public ActionResult Dashboard()
+		{
+			return View();
+		}
+
+	}
 }

@@ -1,3 +1,7 @@
 <Solution>
+  <Project Path="../ENTERA.BAL/ENTERA.BAL.csproj" Id="a64bd46f-b6e7-4efd-8cd9-1af730d6558b" />
+  <Project Path="../ENTERA.CONTEXT/ENTERA.CONTEXT.csproj" Id="cc8298cd-5dae-4a9e-81aa-190c089ec5de" />
+  <Project Path="../ENTERA.DAL/ENTERA.DAL.csproj" Id="de6daead-e9dd-4756-b04e-33f5ee4fdcf8" />
+  <Project Path="../ENTERA.MODEL/ENTERA.MODEL.csproj" Id="5534f1aa-1a6c-4ee4-bedb-a9e3cdfb3831" />
   <Project Path="Entera.csproj" />
 </Solution>
