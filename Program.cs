@@ -1,7 +1,22 @@
+
+using ENTERA.CONTEXT.DATA;
+using Microsoft.EntityFrameworkCore;
+var configuration = new ConfigurationBuilder()
+	.AddJsonFile("appsettings.json")
+.Build();
+
 var builder = WebApplication.CreateBuilder(args);
 
+
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+	options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddMvc();
+//dependancy injection register
+
+
 
 var app = builder.Build();
 
@@ -22,7 +37,7 @@ app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{controller=Auth}/{action=Dashboard}/{id?}")
     .WithStaticAssets();
 
 
