@@ -6,10 +6,11 @@ namespace Entera.Controllers
     public class SuperAdminController : Controller
     {
         // GET: SuperAdminController
-        public ActionResult Index()
+        public ActionResult Admin()
         {
             return View();
         }
 
+       
     }
 }
