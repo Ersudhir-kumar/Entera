@@ -4,201 +4,169 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="w-full px-6 py-6 mx-auto">
-    <!-- table 1 -->
-
-    <div class="flex flex-wrap -mx-3">
-        <div class="flex-none w-full max-w-full px-3">
-            <div class="relative flex flex-col min-w-0 mb-6 break-words bg-white border-0 border-transparent border-solid shadow-soft-xl rounded-2xl bg-clip-border">
-                <div class="p-6 pb-0 mb-0 bg-white border-b-0 border-b-solid rounded-t-2xl border-b-transparent">
-                    <h6>Authors table</h6>
-                </div>
-                <div class="flex-auto px-0 pt-0 pb-2">
-                    <div class="p-0 overflow-x-auto">
-                        <table class="items-center w-full mb-0 align-top border-gray-200 text-slate-500">
-                            <thead class="align-bottom">
-                                <tr>
-                                    <th class="px-6 py-3 font-bold text-left uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Author</th>
-                                    <th class="px-6 py-3 pl-2 font-bold text-left uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Function</th>
-                                    <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Status</th>
-                                    <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Employed</th>
-                                    <th class="px-6 py-3 font-semibold capitalize align-middle bg-transparent border-b border-gray-200 border-solid shadow-none tracking-none whitespace-nowrap text-slate-400 opacity-70"></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <div class="flex px-2 py-1">
-                                            <div>
-                                                <img src="../assets/img/team-2.jpg" class="inline-flex items-center justify-center mr-4 text-sm text-white transition-all duration-200 ease-soft-in-out h-9 w-9 rounded-xl" alt="user1" />
-                                            </div>
-                                            <div class="flex flex-col justify-center">
-                                                <h6 class="mb-0 text-sm leading-normal">John Michael</h6>
-                                                <p class="mb-0 text-xs leading-tight text-slate-400">john@creative-tim.com</p>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <p class="mb-0 text-xs font-semibold leading-tight">Manager</p>
-                                        <p class="mb-0 text-xs leading-tight text-slate-400">Organization</p>
-                                    </td>
-                                    <td class="p-2 text-sm leading-normal text-center align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <span class="bg-gradient-to-tl from-green-600 to-lime-400 px-2.5 text-xs rounded-1.8 py-1.4 inline-block whitespace-nowrap text-center align-baseline font-bold uppercase leading-none text-white">Online</span>
-                                    </td>
-                                    <td class="p-2 text-center align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <span class="text-xs font-semibold leading-tight text-slate-400">23/04/18</span>
-                                    </td>
-                                    <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <a href="javascript:;" class="text-xs font-semibold leading-tight text-slate-400"> Edit </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <div class="flex px-2 py-1">
-                                            <div>
-                                                <img src="../assets/img/team-3.jpg" class="inline-flex items-center justify-center mr-4 text-sm text-white transition-all duration-200 ease-soft-in-out h-9 w-9 rounded-xl" alt="user2" />
-                                            </div>
-                                            <div class="flex flex-col justify-center">
-                                                <h6 class="mb-0 text-sm leading-normal">Alexa Liras</h6>
-                                                <p class="mb-0 text-xs leading-tight text-slate-400">alexa@creative-tim.com</p>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <p class="mb-0 text-xs font-semibold leading-tight">Programator</p>
-                                        <p class="mb-0 text-xs leading-tight text-slate-400">Developer</p>
-                                    </td>
-                                    <td class="p-2 text-sm leading-normal text-center align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <span class="bg-gradient-to-tl from-slate-600 to-slate-300 px-2.5 text-xs rounded-1.8 py-1.4 inline-block whitespace-nowrap text-center align-baseline font-bold uppercase leading-none text-white">Offline</span>
-                                    </td>
-                                    <td class="p-2 text-center align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <span class="text-xs font-semibold leading-tight text-slate-400">11/01/19</span>
-                                    </td>
-                                    <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <a href="javascript:;" class="text-xs font-semibold leading-tight text-slate-400"> Edit </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <div class="flex px-2 py-1">
-                                            <div>
-                                                <img src="../assets/img/team-4.jpg" class="inline-flex items-center justify-center mr-4 text-sm text-white transition-all duration-200 ease-soft-in-out h-9 w-9 rounded-xl" alt="user3" />
-                                            </div>
-                                            <div class="flex flex-col justify-center">
-                                                <h6 class="mb-0 text-sm leading-normal">Laurent Perrier</h6>
-                                                <p class="mb-0 text-xs leading-tight text-slate-400">laurent@creative-tim.com</p>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <p class="mb-0 text-xs font-semibold leading-tight">Executive</p>
-                                        <p class="mb-0 text-xs leading-tight text-slate-400">Projects</p>
-                                    </td>
-                                    <td class="p-2 text-sm leading-normal text-center align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <span class="bg-gradient-to-tl from-green-600 to-lime-400 px-2.5 text-xs rounded-1.8 py-1.4 inline-block whitespace-nowrap text-center align-baseline font-bold uppercase leading-none text-white">Online</span>
-                                    </td>
-                                    <td class="p-2 text-center align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <span class="text-xs font-semibold leading-tight text-slate-400">19/09/17</span>
-                                    </td>
-                                    <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <a href="javascript:;" class="text-xs font-semibold leading-tight text-slate-400"> Edit </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <div class="flex px-2 py-1">
-                                            <div>
-                                                <img src="../assets/img/team-3.jpg" class="inline-flex items-center justify-center mr-4 text-sm text-white transition-all duration-200 ease-soft-in-out h-9 w-9 rounded-xl" alt="user4" />
-                                            </div>
-                                            <div class="flex flex-col justify-center">
-                                                <h6 class="mb-0 text-sm leading-normal">Michael Levi</h6>
-                                                <p class="mb-0 text-xs leading-tight text-slate-400">michael@creative-tim.com</p>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <p class="mb-0 text-xs font-semibold leading-tight">Programator</p>
-                                        <p class="mb-0 text-xs leading-tight text-slate-400">Developer</p>
-                                    </td>
-                                    <td class="p-2 text-sm leading-normal text-center align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <span class="bg-gradient-to-tl from-green-600 to-lime-400 px-2.5 text-xs rounded-1.8 py-1.4 inline-block whitespace-nowrap text-center align-baseline font-bold uppercase leading-none text-white">Online</span>
-                                    </td>
-                                    <td class="p-2 text-center align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <span class="text-xs font-semibold leading-tight text-slate-400">24/12/08</span>
-                                    </td>
-                                    <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <a href="javascript:;" class="text-xs font-semibold leading-tight text-slate-400"> Edit </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <div class="flex px-2 py-1">
-                                            <div>
-                                                <img src="../assets/img/team-2.jpg" class="inline-flex items-center justify-center mr-4 text-sm text-white transition-all duration-200 ease-soft-in-out h-9 w-9 rounded-xl" alt="user5" />
-                                            </div>
-                                            <div class="flex flex-col justify-center">
-                                                <h6 class="mb-0 text-sm leading-normal">Richard Gran</h6>
-                                                <p class="mb-0 text-xs leading-tight text-slate-400">richard@creative-tim.com</p>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <p class="mb-0 text-xs font-semibold leading-tight">Manager</p>
-                                        <p class="mb-0 text-xs leading-tight text-slate-400">Executive</p>
-                                    </td>
-                                    <td class="p-2 text-sm leading-normal text-center align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <span class="bg-gradient-to-tl from-slate-600 to-slate-300 px-2.5 text-xs rounded-1.8 py-1.4 inline-block whitespace-nowrap text-center align-baseline font-bold uppercase leading-none text-white">Offline</span>
-                                    </td>
-                                    <td class="p-2 text-center align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <span class="text-xs font-semibold leading-tight text-slate-400">04/10/21</span>
-                                    </td>
-                                    <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                        <a href="javascript:;" class="text-xs font-semibold leading-tight text-slate-400"> Edit </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="p-2 align-middle bg-transparent border-b-0 whitespace-nowrap shadow-transparent">
-                                        <div class="flex px-2 py-1">
-                                            <div>
-                                                <img src="../assets/img/team-4.jpg" class="inline-flex items-center justify-center mr-4 text-sm text-white transition-all duration-200 ease-soft-in-out h-9 w-9 rounded-xl" alt="user6" />
-                                            </div>
-                                            <div class="flex flex-col justify-center">
-                                                <h6 class="mb-0 text-sm leading-normal">Miriam Eric</h6>
-                                                <p class="mb-0 text-xs leading-tight text-slate-400">miriam@creative-tim.com</p>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="p-2 align-middle bg-transparent border-b-0 whitespace-nowrap shadow-transparent">
-                                        <p class="mb-0 text-xs font-semibold leading-tight">Programtor</p>
-                                        <p class="mb-0 text-xs leading-tight text-slate-400">Developer</p>
-                                    </td>
-                                    <td class="p-2 text-sm leading-normal text-center align-middle bg-transparent border-b-0 whitespace-nowrap shadow-transparent">
-                                        <span class="bg-gradient-to-tl from-slate-600 to-slate-300 px-2.5 text-xs rounded-1.8 py-1.4 inline-block whitespace-nowrap text-center align-baseline font-bold uppercase leading-none text-white">Offline</span>
-                                    </td>
-                                    <td class="p-2 text-center align-middle bg-transparent border-b-0 whitespace-nowrap shadow-transparent">
-                                        <span class="text-xs font-semibold leading-tight text-slate-400">14/09/20</span>
-                                    </td>
-                                    <td class="p-2 align-middle bg-transparent border-b-0 whitespace-nowrap shadow-transparent">
-                                        <a href="javascript:;" class="text-xs font-semibold leading-tight text-slate-400"> Edit </a>
-                                    </td>
-                                </tr>
-
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- card 2 -->
 
 
 
+<!--begin::Entry-->
+<!--begin::Container-->
+<div class="container">
+	<!--begin::Notice-->
+	<!--end::Notice-->
+	<!--begin::Card-->
+	<div class="card card-custom">
+		<div class="card-header flex-wrap border-0 pt-6 pb-0">
+			<div class="card-title">
+				<h3 class="card-label">
+					Brand Details
+					<span class="text-muted pt-2 font-size-sm d-block"> Tables of the Brand </span>
+				</h3>
+			</div>
+			<div class="card-toolbar">
+				<!--begin::Dropdown-->
+				<div class="dropdown dropdown-inline mr-2">
+
+					<!--begin::Dropdown Menu-->
+					<div class="dropdown-menu dropdown-menu-sm dropdown-menu-right">
+						<!--begin::Navigation-->
+						<!--end::Navigation-->
+					</div>
+					<!--end::Dropdown Menu-->
+				</div>
+				<!--end::Dropdown-->
+				<!--begin::Button-->
+
+				<a href="javascript:void(0);"
+				   class="btn btn-primary font-weight-bolder"
+				   data-toggle="modal"
+				   data-target="#exampleModal">
+					<span class="svg-icon svg-icon-md">
+						<!--begin::Svg Icon | path:~/assets/media/svg/icons/Design/Flatten.svg-->
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+							<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<rect x="0" y="0" width="24" height="24" />
+								<circle fill="#000000" cx="9" cy="15" r="6" />
+								<path d="M8.8012943,7.00241953 C9.83837775,5.20768121 11.7781543,4 14,4 C17.3137085,4 20,6.6862915 20,10 C20,12.2218457 18.7923188,14.1616223 16.9975805,15.1987057 C16.9991904,15.1326658 17,15.0664274 17,15 C17,10.581722 13.418278,7 9,7 C8.93357256,7 8.86733422,7.00080962 8.8012943,7.00241953 Z" fill="#000000" opacity="0.3" />
+							</g>
+						</svg>
+						<!--end::Svg Icon-->
+					</span> Add Brand
+				</a>
+
+				<!--model starting-->
+				<!--model Ending-->
+				<!--end::Button-->
+			</div>
+		</div>
+		<div class="card-body">
+			<!--begin: Search Form-->
+			<!--begin::Search Form-->
+			<div class="mb-7">
+				<div class="row align-items-center">
+					<div class="col-lg-9 col-xl-8">
+						<div class="row align-items-center">
+							<div class="col-md-4 my-2 my-md-0">
+								<div class="input-icon">
+									<input type="text" class="form-control" placeholder="Search..." id="Brand__search_query" />
+									<span>
+										<i class="flaticon2-search-1 text-muted"></i>
+									</span>
+								</div>
+							</div>
+							<div class="col-md-4 my-2 my-md-0">
+								<div class="d-flex align-items-center">
+									<label class="mr-3 mb-0 d-none d-md-block">Status:</label>
+									<select class="form-control" id="Brand_search_status">
+										<option value="">All</option>
+										<option value="1">Active</option>
+										<option value="0">inActive</option>
+										<option value="3">Unknown</option>
+
+									</select>
+								</div>
+							</div>
+							<div class="col-md-4 my-2 my-md-0">
+								<div class="d-flex align-items-center">
+									<label class="mr-3 mb-0 d-none d-md-block">type</label>
+									<select class="form-control" id="Eventkt_datatable_search_type">
+										<option value="">All</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-xl-4 mt-5 mt-lg-0">
+						<a href="#" class="btn btn-light-primary px-6 font-weight-bold">Search</a>
+					</div>
+				</div>
+			</div>
+			<!--end::Search Form-->
+			<!--end: Search Form-->
+			<!--begin: Datatable-->
+			<div class="datatable datatable-bordered datatable-head-custom" id="Eventkt_datatable"></div>
+			<!--end: Datatable-->
+		</div>
+
+
+	</div>
+	<!--end::Card-->
 </div>
-<script src="../assets/js/plugins/perfect-scrollbar.min.js" async></script>
-<!-- github button -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<!-- main script file  -->
-<script src="../assets/js/soft-ui-dashboard-tailwind.js?v=1.0.5" async></script>
+
+<!--end::Container-->
+<!--end::Entry-->
+<!-- Button trigger modal-->
+<!-- Modal-->
+<!-- Button trigger modal-->
+<!-- Modal-->
+<!-- Modal-->
+<!-- Modal-->
+<div class="modal fade" id="exampleModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdrop" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Add Brand</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<i aria-hidden="true" class="ki ki-close"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="modal-body">
+					<form action="/Brand/Insert" method="post">
+
+						<div class="row">
+							<div class="mb-3 col" hidden>
+								<label for="BrandId" class="form-label">BrandId</label>
+								<input type="number" class="form-control" id="brandid" name="BrandId">
+							</div>
+
+							<div class="mb-3 col">
+								<label for="BrandName" class="form-label">Brand Name</label>
+								<input type="text" class="form-control" id="brandname" name="BrandName" required>
+							</div>
+
+							<div class="mb-3 col">
+								<label for="Description" class="form-label">Description</label>
+								<textarea class="form-control" id="description" name="Description" rows="3"></textarea>
+							</div>
+						</div>
+
+
+
+
+
+						<button type="reset" class="btn btn-light-danger font-weight-bold" data-dismiss="modal">Close</button>
+						<button type="submit" class="btn btn-primary font-weight-bold">Save changes</button>
+					</form>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+
 
