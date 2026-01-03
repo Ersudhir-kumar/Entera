@@ -67,6 +67,8 @@
           justify-content: center;
           background-color: rgba(105, 147, 255, 0.08);
           color: #6993FF;
+          background-color: rgba(137, 80, 252, 0.08);
+          color: #8950FC;
           margin-right: 1rem;
           border-radius: 0.5rem; }
         .wizard.wizard-4 .wizard-nav .wizard-steps .wizard-step .wizard-wrapper .wizard-label {
@@ -85,8 +87,10 @@
         .wizard.wizard-4 .wizard-nav .wizard-steps .wizard-step[data-wizard-state="current"] .wizard-wrapper .wizard-number {
           color: #ffffff;
           background-color: #6993FF; }
+          background-color: #8950FC; }
         .wizard.wizard-4 .wizard-nav .wizard-steps .wizard-step[data-wizard-state="current"] .wizard-wrapper .wizard-label .wizard-title {
           color: #6993FF; }
+          color: #8950FC; }
   .wizard.wizard-4 [data-wizard-type="step-info"] {
     display: none; }
     .wizard.wizard-4 [data-wizard-type="step-info"][data-wizard-state="current"] {
